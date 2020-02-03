@@ -38,11 +38,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let bo1 = userdef.bool(forKey: "enabled_preference")
 
         print(str ?? "a")
+        print(str2 ?? "c")
         print(bo1 ?? "b")
 
         for (key, value) in UserDefaults.standard.dictionaryRepresentation() {
             print("\(key) = \(value) \n")
         }
+
+        let filePath = Bundle.main.path(forResource: "Settings.bundle/Root", ofType:"plist" )
+        let plist = NSDictionary(contentsOfFile: filePath!)
+        print(filePath)
         
         return true
     }
