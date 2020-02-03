@@ -39,8 +39,8 @@ class FormatModel: NSObject {
         Item(itemID: "娯楽", details:[
             Detail(detailID: "機種", cellType: .select, row:["PS4","PSP"]),
             Detail(detailID: "ソフト", cellType: .multi, multiDetail:[
-                MultiDetail(detailID: "PS4", cellType: .select, row: ["a","b"]),
-                MultiDetail(detailID: "PSP", cellType: .select, row: ["c","d"])
+//                MultiDetail(detailID: "PS4", cellType: .select, row: ["a","b"]),
+//                MultiDetail(detailID: "PSP", cellType: .select, row: ["c","d"])
             ]),
         ])
     ]

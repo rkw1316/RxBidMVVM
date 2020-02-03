@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E5B632423E83C3600B41327 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B632323E83C3600B41327 /* Settings.bundle */; };
 		3EC3D0B023E581F6000DA9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D0AF23E581F6000DA9DE /* AppDelegate.swift */; };
 		3EC3D0B223E581F6000DA9DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D0B123E581F6000DA9DE /* SceneDelegate.swift */; };
 		3EC3D0B723E581F6000DA9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC3D0B523E581F6000DA9DE /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E5B632323E83C3600B41327 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		3E5B632523E83C5300B41327 /* RxBidMVVM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RxBidMVVM.entitlements; sourceTree = "<group>"; };
 		3EC3D0AC23E581F6000DA9DE /* RxBidMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxBidMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC3D0AF23E581F6000DA9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC3D0B123E581F6000DA9DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 		3EC3D0AE23E581F6000DA9DE /* RxBidMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				3E5B632523E83C5300B41327 /* RxBidMVVM.entitlements */,
 				3EC3D0AF23E581F6000DA9DE /* AppDelegate.swift */,
 				3EC3D0B823E581F8000DA9DE /* Assets.xcassets */,
 				3EC3D0C323E5835C000DA9DE /* CareTableViewController.swift */,
@@ -106,6 +110,7 @@
 				3EC3D0D023E5B4A7000DA9DE /* PickerTextField.swift */,
 				3EC3D0B123E581F6000DA9DE /* SceneDelegate.swift */,
 				3EC3D0D923E6C813000DA9DE /* UIFormatModel.swift */,
+				3E5B632323E83C3600B41327 /* Settings.bundle */,
 			);
 			path = RxBidMVVM;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 				3EC3D0C823E583AB000DA9DE /* PickerTableViewCell.xib in Resources */,
 				3EC3D0B923E581F8000DA9DE /* Assets.xcassets in Resources */,
 				3EC3D0B723E581F6000DA9DE /* Main.storyboard in Resources */,
+				3E5B632423E83C3600B41327 /* Settings.bundle in Resources */,
 				3EC3D0CC23E583DE000DA9DE /* KeyboardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,9 +410,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E318B8C2F01145E700D93465 /* Pods-RxBidMVVM.debug.xcconfig */;
 			buildSettings = {
+				APPGROUP = group.rk1316.test.build.setting.app.group.user.defined;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RxBidMVVM/RxBidMVVM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZE8TFC9BUB;
+				DEVELOPMENT_TEAM = GENAR6B2R4;
 				INFOPLIST_FILE = "$(SRCROOT)/RxBidMVVM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,9 +431,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9AEFA894778C1C82B6BB687 /* Pods-RxBidMVVM.release.xcconfig */;
 			buildSettings = {
+				APPGROUP = group.rk1316.test.build.setting.app.group.user.defined;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RxBidMVVM/RxBidMVVM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZE8TFC9BUB;
+				DEVELOPMENT_TEAM = GENAR6B2R4;
 				INFOPLIST_FILE = "$(SRCROOT)/RxBidMVVM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
