@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-RxBidMVVM.xcscheme_^#shared#^_</key>
+		<key>Pods-RxBidMVVM.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
