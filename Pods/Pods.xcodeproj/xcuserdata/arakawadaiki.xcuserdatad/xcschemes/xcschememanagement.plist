@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-RxBidMVVM.xcscheme</key>
+		<key>Pods-RxBidMVVM.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>RxCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>RxRelay.xcscheme</key>
+		<key>RxRelay.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
