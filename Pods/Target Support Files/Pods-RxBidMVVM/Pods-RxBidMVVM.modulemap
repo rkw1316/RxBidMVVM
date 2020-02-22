@@ -1,0 +1,6 @@
+framework module Pods_RxBidMVVM {
+  umbrella header "Pods-RxBidMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}
