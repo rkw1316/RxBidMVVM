@@ -2,7 +2,7 @@
 //  RxBidMVVMModel.swift
 //  RxBidMVVM
 //
-//  Created by 荒川大樹 on 2020/02/02.
+//  Created by rkw1316 on 2020/02/02.
 //  Copyright © 2020 rkw1316. All rights reserved.
 //
 
